@@ -2,9 +2,11 @@ import React from 'react';
 import './App.css';
 import CanvasDraw from 'react-canvas-draw';
 import { useState } from 'react';
+import * as tf from '@tensorflow/tfjs';
+
 function App() {
 	const [canvas, setCanvas]: any = useState(null);
-
+	
 	return (
 		<div
 			className="App"
