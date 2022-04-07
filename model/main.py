@@ -1,4 +1,4 @@
 from mnist import MNISTModel
 
-model = MNISTModel(3)
+model = MNISTModel(20)
 model.run_model()
