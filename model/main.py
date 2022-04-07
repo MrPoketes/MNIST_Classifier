@@ -1,5 +1,4 @@
-from utilities import run_model
+from mnist import MNISTModel
 
-EPOCHS = 50
-
-run_model(EPOCHS)
+model = MNISTModel(3)
+model.run_model()
