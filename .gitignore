@@ -2,6 +2,7 @@
 .vscode
 model/data
 model/__pycache__
+model/mnist_model
 
 # React
 
